@@ -1,9 +1,32 @@
-# React TypeScript Starter Pack
+# React Product Catalog
 
-To use this template click `Use this template`
+A modern, feature-rich web application for browsing electronic devices (phones, tablets, and accessories), featuring a fully integrated shopping cart, wishlist (favorites), dynamic filtering, sorting, and pagination.
 
-### Available Scripts
+## Live Preview
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+🔗 [View Live Demo](https://nastia7408.github.io/phone_catalog_react/)
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+## Technologies Used
+
+- **React 18 & TypeScript**: Component-based UI architecture with strict typing.
+- **Redux Toolkit**: Global state management for products, shopping cart, and favorites.
+- **React Router (v6)**: Client-side routing with hash support for seamless navigation.
+- **SCSS / CSS Modules**: Modular, scoped styling with smooth transitions and hover effects.
+- **Vite**: Next-generation frontend build and development tool.
+
+## Key Features
+
+- **Multi-category Catalog:** Dedicated pages for Phones, Tablets, and Accessories with data loaded dynamically from public API endpoints.
+- **Advanced Filtering & Sorting:** Sort products by newest, alphabetically, or by price (with discount calculations) and control items per page.
+- **Interactive Shopping Cart:** Manage item quantities, view real-time totals, and persist state via `localStorage`.
+- **Favorites (Wishlist):** Save preferred items with instant state saving and badge counters in the header.
+- **Product Details & Recommendations:** Comprehensive product views featuring color/capacity variations, tech specs, breadcrumbs, and random suggestions (`You may also like`).
+- **Search & Debounce:** Fast real-time product searching with URL query synchronization.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/nastia7408/phone_catalog_react.git](https://github.com/nastia7408/phone_catalog_react.git)
