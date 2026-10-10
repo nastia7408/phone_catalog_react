@@ -29,23 +29,23 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/nastia7408/phone_catalog_react]
+   git clone https://github.com/nastia7408/phone_catalog_react
    ```
 
 2. **Navigate to the project directory:**
 
-```bash
-cd phone_catalog_react
-```
+  ```bash
+  cd phone_catalog_react
+  ```
 
 3.**Install dependencies**:
 
-```bash
-npm i
-```
+  ```bash
+  npm i
+  ```
 
 4.**Start the local development server**:
 
-```bash
-npm start
-```
+  ```bash
+  npm start
+  ```
